@@ -7,6 +7,7 @@
   --alfa-color: rgba(255, 255, 255, 0.6);
   --comand-color: #f5f4fa;
   --button-partfolio-colot: #f5f4fa;
+  --background-item: #f5f4fa;
 }
 
 ul {
@@ -147,12 +148,31 @@ body {
 
 .features-item {
   display: flex;
-  flex-wrap: wrap;
 }
 .features-item .item {
   width: 270px;
 }
+.features-item .item-icon:not(:last-child) {
+  margin-right: 30px;
+}
 
+.item-icon::before {
+  display: block;
+
+  height: 120px;
+  content: "";
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--background-item);
+}
+.item-icon .icon-delivery ::before {
+  background-image: url();
+}
+
+.icon-clock ::before {
+  background-image: url();
+}
 .features {
   display: flex;
   flex-wrap: wrap;
