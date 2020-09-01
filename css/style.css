@@ -306,7 +306,11 @@ body {
   padding-bottom: 200px;
 
   background-color: var(--hero-color);
-  background-image: url();
+  background-image: url(../img/work.jpeg);
+  background: rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
 
   text-align: center;
 }
