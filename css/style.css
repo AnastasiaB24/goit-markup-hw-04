@@ -121,12 +121,12 @@ body {
   align-items: center;
 }
 .icon-mail {
-  width: 12px;
-  height: 16px;
+  width: 16px;
+  height: 12px;
 
   margin-right: 10px;
 
-  fill: var(--color-icon);
+  fill: currentColor;
 }
 .icon-phone {
   width: 10px;
@@ -134,7 +134,7 @@ body {
 
   margin-right: 10px;
 
-  fill: var(--title-text-color);
+  fill: currentColor;
 }
 
 /* .link-addres:hover .icon-mail,
@@ -232,7 +232,7 @@ body {
 .poster-name {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: -;
+  color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -516,6 +516,7 @@ body {
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
+  border: none;
   background-color: var(--button-partfolio-colot);
   color: var(--primary-text-color);
 }
