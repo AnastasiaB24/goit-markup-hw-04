@@ -105,7 +105,7 @@ body {
 .addres .link-addres {
   color: var(--title-text-color);
   display: flex;
-  text-align: center;
+
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -114,16 +114,27 @@ body {
   font-style: normal;
 }
 
+.link-addres {
+  display: flex;
+  align-items: center;
+}
+
+.link-addres:hover .icon-mail,
+.link-addres:focus .icon-mail,
+.link-addres:hover .icon-phone,
+.link-addres:focus .icon-phone,
 .link-addres:hover,
 .link-addres:focus {
   color: var(--accent-color);
 }
 
-.link-addres:hover .hover {
-  color: var(--accent-color);
-}
+/* .link-addres:hover .hover {
+  fill: var(--accent-color);
+} */
 
-/* .icon-phone:hover,
+/* .icon-mail:hover,
+.icon-mail:focus,
+.icon-phone:hover,
 .icon-phone:focus {
   color: var(--accent-color);
 } */
@@ -133,9 +144,9 @@ body {
 }
 
 .icon-mail {
-  width: 16px;
-  height: 12px;
-  vertical-align: middle;
+  width: 12px;
+  height: 16px;
+
   margin-right: 10px;
 
   fill: var(--color-icon);
@@ -143,7 +154,7 @@ body {
 .icon-phone {
   width: 10px;
   height: 16px;
-  vertical-align: middle;
+
   margin-right: 10px;
 
   fill: var(--title-text-color);
