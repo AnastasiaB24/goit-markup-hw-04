@@ -104,7 +104,8 @@ body {
 
 .addres .link-addres {
   color: var(--title-text-color);
-
+  display: flex;
+  text-align: center;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -118,7 +119,7 @@ body {
   color: var(--accent-color);
 }
 
-.link-addres :hover .hover {
+.link-addres:hover .hover {
   color: var(--accent-color);
 }
 
