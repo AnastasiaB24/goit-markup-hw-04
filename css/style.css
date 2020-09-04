@@ -9,6 +9,7 @@
   --button-partfolio-colot: #f5f4fa;
   --background-item: #f5f4fa;
   --color-icon: #afb1b8;
+  --hover-partfolio:  rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 ul {
@@ -179,6 +180,11 @@ body {
 }
 
 /* features */
+.conteiner-portfolio{
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .features-item {
   display: flex;
@@ -212,7 +218,7 @@ body {
 }
 /* Формула calc */
 
-.item-box {
+.features .item-box {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
 }
@@ -221,9 +227,18 @@ body {
   margin-right: 0px;
 }
 
-.poster-name:nth-last-child(-n + 3),
+.poster-name {
+  margin bottom: 0px;
+}
+
+/* .poster-name:nth-last-child(-n + 3), */
 .item-box:nth-last-child(-n + 3) {
   margin-bottom: 30px;
+}
+
+item-box:hover{
+  box-shadow:var(--hover-partfolio)
+
 }
 
 .features .title {
@@ -376,9 +391,11 @@ body {
 }
 
 /* button */
-.button {
-  padding-top: 132px;
-  padding-bottom: 52px;
+.button-pad {
+  padding-top: 94px;
+  padding-bottom: 50px;
+
+  border: none;
 }
 .button-text {
   align-items: center;
@@ -408,9 +425,9 @@ body {
 
   background-color: var(--hero-color);
 
-  background-image: url(../img/work.jpeg);
+  background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/work.jpeg);
 
-  background: rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4);
+  
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -480,8 +497,14 @@ body {
   background-color: var(--accent-color);
   color: var(--white-text-color);
 }
-
+.conteiner-box {
+  padding-bottom: 94px;
+}
 .btn {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
   background-color: var(--button-partfolio-colot);
   color: var(--primary-text-color);
 }
