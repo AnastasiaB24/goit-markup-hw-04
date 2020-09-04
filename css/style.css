@@ -483,7 +483,9 @@ body {
 .icon-hover-link:focus {
   border: 1px solid var(--accent-color);
 }
-
+.features-tex {
+  margin-left: 24px;
+}
 .clients-icon {
   fill: var(--color-icon);
 }
