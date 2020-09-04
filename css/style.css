@@ -325,6 +325,10 @@ body {
   margin-bottom: 50px;
 }
 .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -332,7 +336,7 @@ body {
 
 .title-features {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 16px;
   letter-spacing: 1.14;
   text-transform: uppercase;
