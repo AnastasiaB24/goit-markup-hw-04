@@ -35,6 +35,12 @@ body {
   letter-spacing: 0.03em;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* my conteiner */
 .conteiner {
   margin-left: auto;
@@ -137,10 +143,6 @@ body {
   fill: currentColor;
 }
 
-/* .link-addres:hover .icon-mail,
-.link-addres:focus .icon-mail,
-.link-addres:hover .icon-phone,
-.link-addres:focus .icon-phone, */
 .link-addres:hover,
 .link-addres:focus {
   color: var(--accent-color);
@@ -316,7 +318,6 @@ body {
 }
 
 .section-comand {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   /* text-align: center; */
@@ -360,6 +361,7 @@ body {
   font-weight: 500;
   margin-top: 0px;
   margin-bottom: 10px;
+  padding-top: 30px;
 
   font-size: 16px;
   line-height: 1.18;
