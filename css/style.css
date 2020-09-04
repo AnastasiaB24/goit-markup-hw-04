@@ -118,31 +118,6 @@ body {
   display: flex;
   align-items: center;
 }
-
-.link-addres:hover .icon-mail,
-.link-addres:focus .icon-mail,
-.link-addres:hover .icon-phone,
-.link-addres:focus .icon-phone,
-.link-addres:hover,
-.link-addres:focus {
-  color: var(--accent-color);
-}
-
-/* .link-addres:hover .hover {
-  fill: var(--accent-color);
-} */
-
-/* .icon-mail:hover,
-.icon-mail:focus,
-.icon-phone:hover,
-.icon-phone:focus {
-  color: var(--accent-color);
-} */
-
-.addres {
-  margin-left: auto;
-}
-
 .icon-mail {
   width: 12px;
   height: 16px;
@@ -158,6 +133,26 @@ body {
   margin-right: 10px;
 
   fill: var(--title-text-color);
+}
+
+/* .link-addres:hover .icon-mail,
+.link-addres:focus .icon-mail,
+.link-addres:hover .icon-phone,
+.link-addres:focus .icon-phone, */
+.link-addres:hover,
+.link-addres:focus {
+  color: var(--accent-color);
+}
+
+.link-addres:hover .hover {
+  fill: var(--accent-color);
+}
+.link-addres:hover .icon-phone {
+  fill: var(--accent-color);
+}
+
+.addres {
+  margin-left: auto;
 }
 
 /* auth nav */
